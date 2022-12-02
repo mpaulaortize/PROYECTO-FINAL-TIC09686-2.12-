@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Quicksand';
+    background: white;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+header{
+width: 100%;
+height: 700px;
+background: rgba(182, 198, 237, 0.14);
+background: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0;
+}
+
+nav a{
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* contenerdor del header*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 700px;
+    background-color: #F6F8FA;
+    box-shadow: 0px 14.9551px 37.3878px rgba(154, 170, 207, 0.2);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+.album{
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.signupform{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25%;
+}
+
+.tittle{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    width: 400px;
+    margin-left: 80px;
+
+
+    color: #000000;
+    
+}
+
+.AUR{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+
+    color: #000000;
+}
+.botonlanding{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.botonlanding button{
+    font-family: 'Quicksand';
+    font-style: normal;
+    margin-top: 10px;
+    background: rgba(182, 198, 237, 0.14);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #9AAACF;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.botonlanding button a{
+
+    text-decoration: none;
+    color: #9AAACF;
+    
+
+}
+
+.botonlanding h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    width: 300px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    color: #9AAACF;
+}
+
+.botonlanding button:hover{
+    background-color: #9aaacf7a;
+    color: #F6F8FA;
+}
+
+.botonlanding button a:hover{
+    color: #F6F8FA;
+}
+
+
+/* our music*/
+.contenedor-nosotros{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagen-about-us{
+    width: 90%;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-textos{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.titulo-music{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    width: 700px;
+    margin-bottom: -100px;
+
+
+    color: #000000;
+}
+
+/* Suscribete*/
+
+.contenedor-music{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.contenedorsubscribenow{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    width: 700px;
+
+
+    color: #000000;
+}
+
+
+/* Music*/
+
+.movie-list-wrapper{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 1100px;
+    margin-top: 10px;
+    bottom: 20px;
+
+    overflow-x: auto;
+
+}
+
+.movie-list-item-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.movie-list-item{
+    color: white;
+    font-weight: 300;
+}
+
+.movie-list-item{
+    margin-right: 20px;
+}
+
+.movie-list-item h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+
+    color: #000000;
+}
+
+.movie-list-item p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+
+    
+
+    color: #000000;
+}
+
+
+
+/* Sobre nosotros*/
+.Equipo-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.cards .card{
+    background: #F6F8FA;
+    display: flex;
+    width: 600px;
+    height: 150px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0px 16.7535px 41.8838px rgba(154, 170, 207, 0.2);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+
+}
+
+.titulo-equipo{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    width: 500px;
+    margin-left: 100px;
+
+
+    color: #000000;
+}
+
+.texto-team p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+
+    color: #000000;
+}
+
+footer{
+    background-color: #F6F8FA;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #9aaacf86;
+}
+
+.content-foo{
+    text-align: left;
+}
+
+.content-foo h4{
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #000000;
+    margin-top: 3px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+    color: #9AAACF;
+}
